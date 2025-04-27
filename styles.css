@@ -1,0 +1,140 @@
+A:link
+{
+    color:white;
+    text-decoration:underline;
+}
+A:visited
+{
+    color:white;
+    text-decoration:underline;
+}
+A:hover
+{
+    color:white;
+    text-decoration:underline;
+}
+
+.activebutton
+{
+    background-color:#E8FFE5;
+    border:1px solid black;
+}
+
+.buttons
+{
+    border:1px solid black;
+    background-color:#96D392;
+}
+
+.buttonarea A:link
+{
+    text-decoration:none;
+}
+
+.buttonarea A:visited
+{
+    text-decoration:none;
+}
+
+.buttonarea A:hover
+{
+    text-decoration:underline;
+}
+
+.content
+{
+    border:2px solid gray;
+    padding:10px;
+    /*background-color:#FFFFFF;*/
+    background-color:Black;
+    color:White;
+}
+
+.heading
+{
+    font-weight:bold;
+    margin-bottom:1em;
+    font-size:larger;
+    color:#3A53AF;
+}
+
+.paragraph
+{
+    margin-bottom:1em;
+}
+
+.tab
+{
+	width:100px;
+	float:left;
+	display:block;
+	color:White;
+	background-color:Transparent;
+	margin-left:5px;
+	color:White;
+}
+
+.tabcurve1
+{
+	display:none;
+	background-color:#fff;
+	height:1px;
+	margin:0px 4px;
+	border-left:1px solid white;
+	border-right:1px solid white;
+}
+
+.tabcurve2
+{
+	display:none;
+	background-color:#fff;
+	height:1px;
+	margin:0px 3px;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	background-color:#4AB529;
+}
+
+.tabcurve3
+{
+	display:none;
+	background-color:#fff;
+	height:1px;
+	margin:0px 2px;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	background-color:#4AB529;
+}
+
+.tabcontent
+{
+	display:block;
+	margin:0px 1px;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	border-top:1px solid white;
+	background-color:#307A1C;
+	padding:2px;
+	text-align:center;
+}
+
+a.tab, a.tab:visited
+{
+	color:White;
+	text-decoration:none;
+}
+
+a.tab:hover .tabcontent
+{
+	background-color:#4AB529;
+}
+
+.downloadButton
+{
+	border:outset blue;
+	background-color:Navy;
+	color:White;
+	padding:5px;
+	margin:10px;
+}
+
